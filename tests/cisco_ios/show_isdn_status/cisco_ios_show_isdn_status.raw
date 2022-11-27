@@ -34,3 +34,35 @@ ISDN Serial0/3/0:23 interface
     The Free Channel Mask:  0x807FFFFF
     Number of L2 Discards = 0, L2 Session ID = 1
     Total Allocated ISDN CCBs = 1
+ISDN BRI0/1/0 interface
+        dsl 4, interface ISDN Switchtype = basic-net3
+    Layer 1 Status:
+        ACTIVE
+    Layer 2 Status:
+        TEI = 0, Ces = 1, SAPI = 0, State = MULTIPLE_FRAME_ESTABLISHED
+    Layer 3 Status:
+        0 Active Layer 3 Call(s)
+    Active dsl 4 CCBs = 0
+    The Free Channel Mask:  0x803FF010
+ISDN BRI0/1/1 interface
+        dsl 5, interface ISDN Switchtype = basic-net3
+    Layer 1 Status:
+        ACTIVE
+    Layer 2 Status:
+        TEI = 0, Ces = 1, SAPI = 0, State = TEI_ASSIGNED
+    Layer 3 Status:
+        0 Active Layer 3 Call(s)
+    Active dsl 5 CCBs = 0
+    The Free Channel Mask:  0x803FF011
+ISDN BRI0/2/0 interface
+        dsl 5, interface ISDN Switchtype = basic-net3
+    Layer 1 Status:
+        DEACTIVATED
+    Layer 2 Status:
+        TEI = 0, Ces = 1, SAPI = 0, State = TEI_ASSIGNED
+    Layer 3 Status:
+        0 Active Layer 3 Call(s)
+    Active dsl 5 CCBs = 0
+    The Free Channel Mask:  0x803FF011
+
+
