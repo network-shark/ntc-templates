@@ -39,7 +39,7 @@ ISDN BRI0/1/0 interface
     Layer 1 Status:
         ACTIVE
     Layer 2 Status:
-        TEI = 0, Ces = 1, SAPI = 0, State = MULTIPLE_FRAME_ESTABLISHED
+        TEI = 1, Ces = 1, SAPI = 0, State = MULTIPLE_FRAME_ESTABLISHED
     Layer 3 Status:
         0 Active Layer 3 Call(s)
     Active dsl 4 CCBs = 0
@@ -63,6 +63,6 @@ ISDN BRI0/2/0 interface
     Layer 3 Status:
         0 Active Layer 3 Call(s)
     Active dsl 5 CCBs = 0
-    The Free Channel Mask:  0x803FF011
+    The Free Channel Mask:  0x803FF020
 
 
